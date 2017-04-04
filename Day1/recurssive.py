@@ -13,4 +13,6 @@ def replicate_recur(times, data):
     solution.append(data)
     times = times - 1
     others = replicate_recur(times, data)
+
+    solution.extend(others)
     
