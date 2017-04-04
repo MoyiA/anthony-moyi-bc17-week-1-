@@ -16,6 +16,7 @@ def prime(n):
 def prime_number(n = 1):
     '''input -> int(n)
        output -> list(prime numbers)
+       Big O = n**2
     '''
 
     if type(n) != type(6):
