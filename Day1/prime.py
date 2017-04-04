@@ -4,6 +4,9 @@ def prime(n):
     '''
     if n == 1 or n <= 0:
         return False
+    if n == 2:
+        return True
+
     for x in range(2, n):
         if n % x == 0:
             return False
@@ -15,8 +18,11 @@ def prime_number(n = 1):
        output -> list(prime numbers)
     '''
 
+    if type(n) != type(6):
+        return "invalid data"
+
     solution = []
-    for i in range(0, n):
+    for i in range(0, n + 1):
         if prime(i):
             solution.append(i)
     

@@ -17,4 +17,3 @@ def replicate_recur(times, data):
     solution.extend(others)
 
     return solution
-print(replicate_recur(2/5, "Hello Tony"))
