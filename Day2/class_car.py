@@ -18,6 +18,3 @@ class Car():
             return True
         else:
             return False
-
-
-
