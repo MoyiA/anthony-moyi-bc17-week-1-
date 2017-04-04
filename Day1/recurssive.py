@@ -11,3 +11,5 @@ def replicate_recur(times, data):
 
     # recurssive case    
     solution.append(data)
+    times = times - 1
+    
