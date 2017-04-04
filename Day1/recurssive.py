@@ -15,4 +15,5 @@ def replicate_recur(times, data):
     others = replicate_recur(times, data)
 
     solution.extend(others)
-    
+
+    return solution
