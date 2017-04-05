@@ -1,4 +1,4 @@
-def word_count(n):
+def words(n):
     '''input -> "string"
        output -> dict
        counts the occurrence of character in a sentence
@@ -10,10 +10,15 @@ def word_count(n):
         if word in solution:
             continue
         else:
-            solution[word] = 0
+            try:
+                y = int(word)
+                solution[y] = 0
+            except Exception:
+                y = word
+                solution[word] = 0
 
             for x in split_string:
                 if x == word:
-                    solution[word] += 1
+                    solution[y] += 1
 
     return solution
