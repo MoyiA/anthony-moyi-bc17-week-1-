@@ -1,7 +1,7 @@
 def max_min(n):
     '''input -> list[]
        output -> list[]
-       gives the smallest and largest number
+       gives a list containing the smallest and largest number
     '''
     solution = []
 
