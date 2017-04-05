@@ -10,4 +10,3 @@ def max_min(n):
     solution.append(len(num) - 1)
 
     return solution
-print(max_min([5, 8, 1, 3]))

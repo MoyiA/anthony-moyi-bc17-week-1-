@@ -17,4 +17,3 @@ def word_count(n):
                     solution[word] += 1
 
     return solution
-print(word_count("hello hello hello"))
