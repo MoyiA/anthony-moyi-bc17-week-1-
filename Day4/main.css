@@ -1,0 +1,63 @@
+{
+    border: 1px solid red;
+}
+
+.margin_space
+{
+    margin: 10px 10px 10px 10px;
+
+}
+
+.grid
+{
+    margin: 0 auto;
+    width: 100%;
+
+}
+.row
+{
+    width: 100%;
+    display: flex; flex-wrap: wrap;
+}
+.float_navbar_left
+{
+    position: relative;
+    left: 80%;
+}
+.float_logo
+{
+    position: relative;
+    left: 35%;
+}
+.float_search_input_centre
+{
+    position: relative;
+    left: 45%;
+}
+.float_buttons_left
+{
+    position: relative;
+    left: 43%;
+}
+
+.float_footer_left
+{
+    position: relative;
+    left: 60%;
+}
+.padding_footer
+{
+    padding: 3px 3px 3px 3px;
+
+}
+.size_elements
+{
+    position: fixed;
+    bottom: 2%;
+}
+
+img
+{
+    height: 90%;
+    width: 40%
+}
